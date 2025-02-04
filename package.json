@@ -5,7 +5,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "start": "vite preview",
+    "start": "pnpm vite preview",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "test": "vitest --no-isolate",
